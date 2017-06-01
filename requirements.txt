@@ -1,0 +1,5 @@
+Flask
+transitions
+pygraphviz
+python-telegram-bot
+selenium
