@@ -9,6 +9,11 @@ transition = [
 	{'trigger': 'part', 'source': 'frompart', 'dest': 'topart'},
 	{'trigger': 'area', 'source': 'topart', 'dest': 'fromarea'},
 	{'trigger': 'area', 'source': 'fromarea', 'dest': 'toarea'},
+	{'trigger': 'exit', 'source': 'startcheck', 'dest': 'start'},
+	{'trigger': 'exit', 'source': 'frompart', 'dest': 'start'},
+	{'trigger': 'exit', 'source': 'topart', 'dest': 'start'},
+	{'trigger': 'exit', 'source': 'fromarea', 'dest': 'start'},
+	{'trigger': 'exit', 'source': 'toarea', 'dest': 'start'},
 ]
 
 class traintime(object):
